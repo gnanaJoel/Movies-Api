@@ -157,7 +157,7 @@ app.get("/", (req, res) => {
     // JSON , XML
     // All data sent to the API endpoint, are sent in JSON format
     // All replies sent by the server are sent in JSON Format    
-    res.status(418).send({"people":[{"person":{"name":"Peter", "age":99}}, {"person":{"name":"Alice", "age":88}}]});
+    res.status(418).send({"people":[{"person":{"name":"Peter", "age":99}}, {"person":{"name":"Alice", "age":88}}, {"person":{"name":"Fred", "age":77}}]});
 });
  
 // start the server and output a message if the server started successfully
